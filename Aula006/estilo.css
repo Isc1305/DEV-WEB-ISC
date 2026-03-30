@@ -1,0 +1,6 @@
+body {
+      background-color: rgb(33, 44, 33);
+      label {
+    color: rgb(255, 255, 255); /* ou qualquer cor que quiser */
+}    
+}
