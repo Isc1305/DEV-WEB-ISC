@@ -1,6 +1,15 @@
 body{
-    background-color: rgb(242, 255, 220);
+    background-color: rgb(254, 255, 253);
+}
+form{
+    background-color: cyan; 
+    padding: 20px; /* ESPAÇAMENTO ENTRE NOME E SOBRENOME*/
+    border-radius: 8px; /*AREDONDAMENTO DE CAIXA*/
+    box-shadow: 0 4px 6px rgba(0,0,0,10.50); /*DESIGNER DA CAIXA*/
 }
 label{
-    color: chocolate;
+    color: blue;
+}
+input{
+    color: rgb(247, 0, 255);
 }
