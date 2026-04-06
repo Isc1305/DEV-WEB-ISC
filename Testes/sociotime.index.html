@@ -8,14 +8,17 @@
         *{font-family: Arial, Helvetica, sans-serif;}
         h1{text-align: center;color: rgb(5, 93, 15);}
     </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <H1>Seja Sócio Verdão</H1>
     <p> Para ser sócio preencha o formulário abaixo</p>
     <form action="cadastro.php">
-        <p>Nome</p>
-        
-
+        <P><label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome: </label>
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <input type="submit" value="Enviar">
     </form>
 
 </body>
