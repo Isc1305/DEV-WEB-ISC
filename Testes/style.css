@@ -1,15 +1,21 @@
 body{
-    background-color: rgb(254, 255, 253);
+    background-color: rgb(208, 235, 215);
 }
 form{
-    background-color: cyan; 
+    background-color: rgb(32, 232, 52); 
     padding: 20px; /* ESPAÇAMENTO ENTRE NOME E SOBRENOME*/
     border-radius: 8px; /*AREDONDAMENTO DE CAIXA*/
-    box-shadow: 0 4px 6px rgba(0,0,0,10.50); /*DESIGNER DA CAIXA*/
+    box-shadow: 0 4px 6px rgba(0,0,0,80.50); /*DESIGNER DA CAIXA*/
 }
-label{
-    color: blue;
+
+label[for="inome"]{
+color: rgb(255, 254, 254);
 }
+label[for=isobrenome]{
+    color: rgb(243, 173, 11);
+}
+
+
 input{
     color: rgb(247, 0, 255);
 }
