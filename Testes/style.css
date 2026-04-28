@@ -6,6 +6,7 @@ form{
     padding: 20px; /* ESPAÇAMENTO ENTRE NOME E SOBRENOME*/
     border-radius: 8px; /*AREDONDAMENTO DE CAIXA*/
     box-shadow: 0 4px 6px rgba(0,0,0,80.50); /*DESIGNER DA CAIXA*/
+    width: 400px; /*diminui o tamanh0 da caixa*/
 }
 
 label[for="inome"]{
